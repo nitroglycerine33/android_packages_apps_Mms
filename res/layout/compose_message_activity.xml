@@ -21,10 +21,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/list_background"
+    android:textColor="@android:color/white"
     android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/recipients_subject_linear"
+	android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="5dip"
@@ -38,11 +41,12 @@
             android:layout="@layout/recipients_editor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+	    android:textColor="@android:color/white"
         />
 
         <EditText android:id="@+id/subject"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
-            android:textColor="@color/compose_message_edit_text"
+            android:textColor="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:capitalize="sentences"
@@ -70,7 +74,7 @@
             android:visibility="gone"
             android:fadingEdge="none"
             android:layout_marginBottom="1dip"
-            android:cacheColorHint="@color/background"
+            android:cacheColorHint="@android:color/white"
             android:scrollbarAlwaysDrawVerticalTrack="false"
             android:scrollbarStyle="insideOverlay"
             android:paddingBottom="@dimen/input_text_height_adjusted"
@@ -116,7 +120,7 @@
             </ScrollView>
 
             <!-- Divider -->
-            <View android:background="@color/dividers"
+            <View android:background="#202020"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
@@ -125,10 +129,10 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background" >
+                android:background="#00000000" >
 
                 <EditText
-                    android:textColor="@color/compose_message_edit_text"
+                    android:textColor="@android:color/white"
                     android:id="@+id/embedded_text_editor"
                     android:layout_width="0dip"
                     android:layout_gravity="bottom"
@@ -159,7 +163,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-                        android:textColor="@color/compose_message_text_counter"
+                        android:textColor="#ffff0000"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"

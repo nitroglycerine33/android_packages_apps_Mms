@@ -22,24 +22,25 @@
 
     <!-- text color -->
     <drawable name="text_color_red">#ffff4444</drawable>
-    <drawable name="text_color_black">#ff000000</drawable>
-    <color name="text_hairline">#ffcccccc</color>
-    <color name="message_count_color">#66333333</color>
+    <drawable name="text_color_black">#ffffffff</drawable>
+    <color name="text_hairline">#ffffffff</color>
+    <color name="list_background">#00000000</color>
+    <color name="message_count_color">@android:color/holo_blue_light</color>
 
     <!-- Chat "sent time" text background -->
-    <color name="timestamp_color">#bf000000</color>
+    <color name="timestamp_color">#ffffffff</color>
 
     <!-- the background color used for unread conversation -->
-    <color name="unread_bgcolor">#ffffffff</color>
-    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="unread_bgcolor">#ff333333</color>
+    <color name="read_bgcolor">#ff000000</color>
 
-    <color name="widget_sender_text_color_read">#555555</color>
-    <color name="widget_sender_text_color_unread">#333333</color>
-    <color name="widget_subject_text_color_read">#777777</color>
-    <color name="widget_subject_text_color_unread">#555555</color>
+    <color name="widget_sender_text_color_read">#ffdfdfdf</color>
+    <color name="widget_sender_text_color_unread">#ffefefef</color>
+    <color name="widget_subject_text_color_read">#ffbfbfbf</color>
+    <color name="widget_subject_text_color_unread">#ffcfcfcf</color>
 
     <!-- Color of the text for buttons in the action bar  -->
-    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="action_bar_button_text_color">#ffffffff</color>
 
     <!-- New text colors from layouts to make theme chooser apk easier to theme -->
     <color name="compose_message_edit_text">#000000</color>

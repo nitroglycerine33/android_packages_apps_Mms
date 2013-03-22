@@ -130,7 +130,7 @@
        <CheckBoxPreference android:key="pref_key_vibrate"
             android:title="@string/pref_title_notification_vibrateWhen"
             android:dependency="pref_key_enable_notifications"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <com.android.mms.preferences.CustomVibrateListPreference
             android:layout="?android:attr/preferenceLayoutChild"
@@ -158,7 +158,7 @@
             android:key="pref_dark_theme"
             android:title="@string/pref_dark_theme_title"
             android:summary="@string/pref_dark_theme_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="pref_key_quickmessage"
